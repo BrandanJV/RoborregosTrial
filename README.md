@@ -35,12 +35,7 @@ Here is a technical description of the different nodes/actions/services the __Dr
    HTTP:
 
    ```bash
-   $ git clone https://github.com/your-username/Candidates-2021.git
-   ```
-
-   SSH
-   ```bash
-   $ git clone git@github.com:your-username/robocup-home.git
+   $ git clone https://github.com/your-username/RoborregosTrial.git
    ```
 
 3. Change to branch systemArchitectureChallenge
