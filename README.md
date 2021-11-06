@@ -66,6 +66,7 @@ Here is a technical description of the different nodes/actions/services the __Dr
    rosrun env_analysis env_analysis.py # Simulate Env Analysis System
    rosrun party_navigation navigation_server.py # Simulate Navigation System
    rosrun speech speech_service.py # Simulate Speech System
+   rosrun state_machine st_subscriber.py #state machine of system
 ```
 
 ## Robot modules
@@ -99,3 +100,10 @@ Here is a technical description of the different nodes/actions/services the __Dr
    | Goal message | Valid goals |
    | --- | --- |
    | **uint16 behavior**: Specifies the navigation behavior of the robot. | <ul><li>1 - Patrol the party</li><li>2 - Stop</li></ul> |
+   
+   
+   ### State Machine
+   State machine that starts with a listener of the env_analysis and starts to send data to servers and services
+   |  Input | Outputs |
+   | --- | ---  |
+   |  **uint16**: Data read from the node publisher of env_analysis  | <ul><li>PATROLLING</li><li>WAITING4STIMULI</li><li>STOPPED</li></ul> |
