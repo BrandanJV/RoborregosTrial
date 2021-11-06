@@ -37,13 +37,7 @@ Here is a technical description of the different nodes/actions/services the __Dr
    ```bash
    $ git clone https://github.com/your-username/RoborregosTrial.git
    ```
-
-3. Change to branch systemArchitectureChallenge
-
-   ```bash
-   $ git checkout systemArchitectureChallenge
-   ```
-
+   
 ## Usage
 1. Enter catkin workspace
 ```bash
